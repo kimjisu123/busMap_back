@@ -15,7 +15,7 @@ public class TestService {
 
         Test test = new Test();
 
-        test.setValue("하하 입니다.");
+        test.setValue("하하가 아닙니다");
 
         testRepository.save(test);
     }
