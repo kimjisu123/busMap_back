@@ -24,4 +24,10 @@ public class TestController {
 
         return "String";
     }
+
+    @GetMapping("/dockerTest")
+    public String DockerTest(){
+
+        return "dockerTest 응답";
+    }
 }
